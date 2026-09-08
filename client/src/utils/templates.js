@@ -1,0 +1,88 @@
+export const templates = {
+  'professional-classic': {
+    name: 'Professional Classic',
+    color: '#1e3a5f',
+    accent: '#1e3a8a',
+    font: 'serif',
+    layout: 'classic-professional',
+  },
+  'software-engineer': {
+    name: 'Software Engineer',
+    color: '#1e3a8a',
+    accent: '#3b82f6',
+    font: 'sans',
+    layout: 'modern',
+  },
+  'frontend-developer': {
+    name: 'Frontend Developer',
+    color: '#be185d',
+    accent: '#ec4899',
+    font: 'sans',
+    layout: 'creative',
+  },
+  'backend-developer': {
+    name: 'Backend Developer',
+    color: '#065f46',
+    accent: '#10b981',
+    font: 'sans',
+    layout: 'technical',
+  },
+  'full-stack-developer': {
+    name: 'Full Stack Developer',
+    color: '#4338ca',
+    accent: '#6366f1',
+    font: 'sans',
+    layout: 'balanced',
+  },
+  'data-analyst': {
+    name: 'Data Analyst',
+    color: '#0f172a',
+    accent: '#f59e0b',
+    font: 'sans',
+    layout: 'analytical',
+  },
+  'java-developer': {
+    name: 'Java Developer',
+    color: '#b91c1c',
+    accent: '#ef4444',
+    font: 'sans',
+    layout: 'classic',
+  },
+  'python-developer': {
+    name: 'Python Developer',
+    color: '#0369a1',
+    accent: '#0ea5e9',
+    font: 'sans',
+    layout: 'clean',
+  },
+  'ui-ux-designer': {
+    name: 'UI/UX Designer',
+    color: '#7c3aed',
+    accent: '#a855f7',
+    font: 'sans',
+    layout: 'artistic',
+  },
+  'devops-engineer': {
+    name: 'DevOps Engineer',
+    color: '#0d9488',
+    accent: '#14b8a6',
+    font: 'sans',
+    layout: 'infrastructure',
+  },
+  'fresher': {
+    name: 'Fresher Resume',
+    color: '#4f46e5',
+    accent: '#818cf8',
+    font: 'sans',
+    layout: 'minimal',
+  },
+  'internship': {
+    name: 'Internship Resume',
+    color: '#ea580c',
+    accent: '#f97316',
+    font: 'sans',
+    layout: 'compact',
+  },
+};
+
+export const getTemplate = (key) => templates[key] || templates['professional-classic'];

@@ -1,0 +1,14 @@
+node_modules
+dist
+.env
+.env.local
+.vite
+.DS_Store
+server/node_modules/
+client/node_modules/
+server/.env
+
+node_modules/
+.env
+.env.*
+!.env.example                
